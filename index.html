@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="클론코딩"> 
+  <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/default.min.css">
+  <title>네이버 : 로그인</title>
+</head>
+<body>
+  <div class="wrap" id="wrap">
+    <header>
+      <div class="header-box">
+        <a href="https://www.naver.com/" class="logo"><h1>NAVER</h1></a>
+        <select name="lang" class="lang">
+          <option value="한국어">한국어</option>
+          <option value="영어">English</option>
+          <option value="중국어(간체)">中文(简体)</option>
+          <option value="중국어(대만)">中文(台灣)</option>
+        </select>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="notice">
+          <p>PC방 등 공용PC라면 QR코드 로그인이 더 안전해요. X</p>
+        </div>
+        <div class="click-list">
+          <ul>
+            <li>
+              <img src="./images/icon-login-color.png" alt="로그인 아이콘">
+              <p>ID 로그인</p>
+            </li>
+            <li>
+              <img src="./images/icon-disposable-gray.png" alt="일회용번호 아이콘">
+              <p>일회용 번호</p>
+            </li>
+            <li>
+              <img src="./images/icon-qr-gray.png" alt="QR코드 아이콘">
+              <p>QR코드</p>
+            </li>
+          </ul>
+        </div>
+        <div class="login-box">
+          <div class="id">
+            <input type="text" placeholder="아이디">
+          </div>
+          <div class="password">
+            <input type="text" placeholder="비밀번호">
+          </div>
+          <div class="keep-security">
+            <div class="left">
+              <img src="./images/icon-check-gray.png" alt="check 아이콘">
+              <p>로그인 상태 유지</p>
+            </div>
+            <form class="right">
+              <p>IP보안</p>
+              <input type="checkbox" id="toggle" hidden>
+              <label for="toggle" class="toggleSwitch">
+                <span class="toggleButton"></span>
+              </label>
+            </form>
+          </div>
+          <div class="button">
+            <button class="btn-login">로그인</button>
+          </div>
+          
+        </div>
+        <!-- <div class="disposable">
+          <p>
+            네이버앱의 <span> 메뉴 > 설정 > 로그인 아이디 관리 >
+            더보기 > 일회용 로그인 번호</span>에 보이는 번호를 입력해 주세요.
+          </p>
+          <input type="text" placeholder="번호를 입력하세요">
+          <div class="login">
+            로그인
+          </div>
+        </div>
+        <div class="qr">
+          <p>공용 네트워크, 공용 PC라면 안전을 위해
+            QR코드로 로그인해주세요.</p>
+          <p>네이버 앱 > 렌즈를 눌러 QR코드를 스캔하여
+            보이는 숫자 중 76를 선택하면 로그인 됩니다.</p>
+        </div> -->
+        <div class="user-management">
+          <ul>
+            <li><a href="#">비밀번호 찾기</a></li>
+            <li><a href="#">아이디 찾기</a></li>
+            <li><a href="#">회원가입</a></li>
+          </ul>
+        </div>
+        <article class="banner">
+          <img src="./images/img-notice.jpg" alt="안전하게 내 정보 지키는 법">
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <ul>
+            <li><a href="#">이용약관<span>|</span></a></li>
+            <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+            <li><a href="#"><span>|</span>책임의 한계와 법적고지<span>|</span></a></li>
+            <li><a href="#">회원정보 고객센터</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <img src="./images/img-naver.png" alt="NAVER">
+          <p>Copyright <span>© NAVER Corp.</span> All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+</body>
+</html>
